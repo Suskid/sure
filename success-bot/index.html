@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <title>Charlotte Trading Dashboard</title>
+</head>
+
+<body class="bg-slate-950 text-white min-h-screen">
+
+  <main class="max-w-5xl mx-auto p-6">
+
+    <!-- Header -->
+    <div class="mb-8">
+      <h1 class="text-4xl font-bold">
+        Charlotte Dashboard
+      </h1>
+
+      <p class="text-slate-400 mt-2">
+        Only trades Charlotte would actually take.
+      </p>
+    </div>
+
+<!-- Signal Card -->
+<div class="bg-slate-900 rounded-3xl p-8 border border-slate-800 shadow-xl">
+
+  <div class="flex items-center justify-between mb-8">
+
+    <div>
+      <h3 id="pair" class="text-5xl font-bold">
+        EURUSD
+      </h3>
+
+      <p class="text-slate-400 mt-2">
+        Live Market Signal
+      </p>
+    </div>
+
+    <span
+      id="bias"
+      class="bg-green-500/20 text-green-400 px-4 py-2 rounded-full text-sm"
+    >
+      Bullish
+    </span>
+
+  </div>
+
+  <div class="mb-6">
+    <p class="text-slate-400 mb-2">
+      Setup Type
+    </p>
+
+    <h2
+      id="signalType"
+      class="text-3xl font-bold"
+    >
+      TYPE 1 BUY
+    </h2>
+  </div>
+
+  <div class="grid md:grid-cols-3 gap-4">
+
+    <div class="bg-slate-800 p-5 rounded-2xl">
+      <p class="text-slate-400 text-sm">
+        Entry
+      </p>
+
+      <h4
+        id="entry"
+        class="text-2xl font-bold mt-2"
+      >
+        1.08210
+      </h4>
+    </div>
+
+    <div class="bg-slate-800 p-5 rounded-2xl">
+      <p class="text-slate-400 text-sm">
+        Stop Loss
+      </p>
+
+      <h4
+        id="stopLoss"
+        class="text-2xl font-bold mt-2"
+      >
+        1.08090
+      </h4>
+    </div>
+
+    <div class="bg-slate-800 p-5 rounded-2xl">
+      <p class="text-slate-400 text-sm">
+        Take Profit
+      </p>
+
+      <h4
+        id="takeProfit"
+        class="text-2xl font-bold mt-2"
+      >
+        1.08450
+      </h4>
+    </div>
+
+  </div>
+</div>
+
+  </main>
+
+  <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0
+    ,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Document</title>
+</head>
+<style>
+  * {
+    font-family: montserrat;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+</style>
+
+<body>
+  <!-- navigation bar -->
+  <nav class="bg-slate-600 w-full h-23 flex justify-between fixed z-30 ">
+    <img src="https://mango-cares.vercel.app/_next/image?url=%2FMango-Care-Logo.png&w=1920&q=75" alt="&"
+      class="mt-3 h-20 mb-3 px-5">
+
+
+    <div class="hidden md:block space-x-7 pt-5 text-center px-3 text-white">
+      <a href="&" class="hover:text-green-600">Home</a>
+      <a href="&" class="hover:text-green-600">Services</a>
+      <a href="&" class="hover:text-green-600">About Us</a>
+      <a href="&" class="hover:text-green-600">Contact</a>
+      <button class="bg-black py-3 px-6 rounded-md shadow-lg hover:shadow-yellow-600"><i
+          class="fa-solid fa-phone"></i>Get Support</button>
+    </div>
+
+    <!-- MD nav bar -->
+    <div class="md:hidden">
+      <i class="fa-solid fa-bars text-3xl"></i>
+    </div>
+  </nav>
+
+  <!-- =========background========= -->
+  <section
+    class="bg-[url(https://images.unsplash.com/photo-1567095761054-7a02e69e5c43?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)] h-full md:h-full pb-10 bg-center bg-cover relative z-0 ">
+
+    <!-- ====overlay===== -->
+    <div class="h-full w-full bg-black opacity-70 absolute"></div>
+
+    <!-- =====main viwe===== -->
+    <div class="relative text-white h-full items-center pt-24 flex flex-col justify-center gap-y-10">
+      <!-- ===butt0n==== -->
+
+      <div class="pt-24 md:pt-4">
+        <button class="items-center py-2 font-semibold bg-black px-9 text-center text-white rounded-md">Now Accepting
+          New NDIS Participants</button>
+      </div>
+
+      <h1 class="text-6xl md:text-8xl px-40 font-bold text-center">
+        Empowering your journey to <p class="text-blue-600">independence</p>
+      </h1>
+      <p class="text-2xl px-80 text-center">Mango Cares provides high-quality, specialized support for individuals
+        living with disabilities. We are dedicated to helping you live your best life.</p>
+
+      <!-- ===main butt0n=== -->
+      <div class="grid md:grid-cols-2 gap-5 md:gap-20 text-center font-bold">
+        <button class="bg-green-700 py-4 px-10 rounded-md">Get Support Today <i
+            class="fa-solid fa-angle-right"></i></button>
+        <button class="bg-slate-200 px-10 py-4 rounded-md">Explore Services <i
+            class="fa-solid fa-arrow-right-long"></i></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===new Why Choose Mango Cares?=== -->
+  <section class=" pt-24 text-center">
+    <h2 class="font-bold text-4xl">Why Choose Mango Cares?</h2>
+    <p class="pt-4"> We believe in a world where everyone has the opportunity to thrive. Our <br> approach is centered
+      entirely around you and your goals.</p>
+
+    <!-- ===grid section=== -->
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-9 pt-20 px-20 text-center ">
+
+      <!-- ===Colum 1=== -->
+      <div
+        class="w-full px-5 pt-5 text-center bg-slate-100 shadow-[#7a7a7a]  py-10 rounded-lg shadow-lg hover:shadow-black transition-all duration-1000">
+        <i class="fa-solid fa-bed-pulse flex text-5xl px-3 pt-4"></i> 
+        <p class="font-bold mt-4 text-3xl"> Empathetic Care</p>
+        <P class="px-5 pt-5">Our dedicated team provides compassionate support tailored to your unique needs.</p>
+      </div>
+
+      <!-- ===Colum 2=== -->
+      <div
+        class="w-full px-5 pt-5 pb-10 bg-slate-100 shadow-[#7a7a7a] rounded-lg shadow-lg hover:shadow-black transition-all duration-1000">
+        <i class="fa-brands fa-connectdevelop flex text-5xl px-3 pt-4"></i>
+        <p class="font-bold mt-4 text-3xl"> Expert Professionals</p>
+        <P class="px-5 pt-5">Highly trained and experienced staff committed to the highest standards of care. </p>
+      </div>
+
+      <!-- ===Colum 3=== -->
+      <div
+        class="w-full px-5 pb-10 text-center bg-slate-100 shadow-[#7a7a7a] rounded-lg shadow-lg hover:shadow-black transition-all duration-1000">
+        <i class="fa-solid fa-arrows-down-to-people flex text-5xl px-3 pt-4"></i>
+        <p class="font-bold mt-4 text-3xl"> Community Focused</p>
+        <P class="px-5 pt-5">Fostering meaningful connections and active participation in local communities.</p>
+      </div>
+
+      <!-- ===Colum 4=== -->
+      <div
+        class="w-full px-5 pt-5 text-center h-auto py-10 bg-slate-100 shadow-[#7a7a7a] rounded-lg shadow-lg hover:shadow-black transition-all duration-1000">
+        <i class="fa-brands fa-hashnode flex text-5xl px-3 pt-4"></i>
+        <p class="font-bold mt-4 text-3xl"> Holistic Wellness</p>
+        <P class="px-5 pt-5">Comprehensive approaches to ensure physical, emotional, and social well-being.</p>
+      </div>
+    </div>
+
+    <!-- ===Comprehensive Support=== -->
+    <section class="mt-20 bg-black text-white pb-40 w-full">
+      <div class="text-6xl font-bold pt-20 md:pr-80 md:pl-20  flex justify-between">
+        <h1>Comprehensive Support <br> Services</h1>
+      </div>
+      <div class="justify-between md:justify-between flex gap-20 px-10 text-2xl pt-10">
+        <p class="pb-5 text-slate-400 md:text-slate-400 ">From daily living assistance to specialist accommodations, our
+          services <br> cover
+          everything you need to live comfortably and confidently</p>
+        <p class="">
+          <button class="text-white bg-black rounded-md py-3 px-6 bg-slate-300 hover:bg-slate-400">View All
+            Services</button>
+        </p>
+      </div>
+
+      <!-- ====grid grid====  -->
+      <div class="grid-cols-1 md:grid grid-cols-3 px-20 gap-6">
+
+        <!-- ===Colum 1=== -->
+        <div
+          class="mt-20 shadow-[#7a7a7a] rounded-lg shadow-lg hover:shadow-green-600 transition-all duration-50 bg-black">
+          <img
+            src="https://images.unsplash.com/photo-1773332589460-5a5d43c80f5b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxfHx8ZW58MHx8fHx8"
+            alt="object-cover" class="bg-cover pb-10 rounded-md">
+          <h1 class="font-bold text-3xl pr-14"> Assist in Life Stage & Transition</h1>
+          <P class=" pt-5 px-5 text-slate-400 text-2xl">Support through life's transitions, helping you navigate changes
+            with confidence and care.</p>
+          <p class="pl-10 pt-4 pb-10">
+            <button class="rounded-md bg-green-300 text-white py-3 px-8 hover:bg-yellow-600">Read More <i
+                class="fa-solid fa-arrow-right-long"></i></button>
+          </p>
+        </div>
+
+        <!-- ===Colum 2=== -->
+        <div
+          class=" mt-20 shadow-[#7a7a7a] rounded-lg shadow-lg hover:shadow-black transition-all duration-50 bg-black ">
+          <img
+            src="https://images.unsplash.com/photo-1773332585687-85beb4da71ab?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyMnx8fGVufDB8fHx8fA%3D%3D"
+            alt="object-cover" class="bg-cover pb-10 rounded-md">
+          <h1 class="font-bold text-3xl pr-14"> Development Life Skills</h1>
+          <P class="px-7 text-2xl text-slate-400 pt-5">Empowering you to build essential life skills for greater
+            independence and self-reliance.</p>
+          <p class="pl-10 pt-10 pb-10">
+            <button class="rounded-md bg-green-300 text-white py-3 px-8 hover:bg-yellow-600">Read More <i
+                class="fa-solid fa-arrow-right-long"></i></button>
+          </p>
+        </div>
+
+        <!-- ===Colum 3=== -->
+        <div
+          class=" mt-20 shadow-[#7a7a7a] rounded-lg shadow-lg hover:shadow-black transition-all duration-50 bg-black">
+          <img
+            src="https://images.unsplash.com/photo-1778174739838-8f154a589ed4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwzNXx8fGVufDB8fHx8fA%3D%3D"
+            alt="object-cover" class="bg-cover pb-10 rounded-md">
+          <h1 class="font-bold text-3xl pr-14"> Daily Tasks / Shared Living</h1>
+          <P class="px-3 text-2xl text-slate-400 pt-5">Assistance with daily personal routines and shared living
+            arrangements to maintain wellbeing</p>
+          <p class="pl-10 pt-4 pb-10">
+            <button class="rounded-md  bg-green-300 text-white py-3 px-8 hover:bg-yellow-600">Read More <i
+                class="fa-solid fa-arrow-right-long"></i></button>
+          </p>
+        </div>
+
+        <!-- ===Colum 4=== -->
+        <div class="mt-20 shadow-[#7a7a7a] rounded-lg shadow-lg hover:shadow-black transition-all duration-50 bg-black">
+          <img
+            src="https://plus.unsplash.com/premium_photo-1682091672249-6ad7f63d5dda?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aHVtYW4lMjBvbiUyMHNub3d8ZW58MHx8MHx8fDA%3D"
+            alt="object-cover" class="bg-cover pb-10 rounded-md">
+          <h1 class="font-bold text-3xl pr-14"> Household Tasks</h1>
+          <P class=" pt-5 px-5 text-slate-400 text-2xl">Keep your home clean, safe, and organized with our reliable
+            household assistance.</p>
+          <p class="pl-10 pt-12 pb-10">
+            <button class="rounded-md bg-green-300 text-white py-3 px-8 hover:bg-yellow-600">Read More <i
+                class="fa-solid fa-arrow-right-long"></i></button>
+          </p>
+        </div>
+
+        <!-- ===Colum 5=== -->
+        <div class="mt-20 shadow-[#7a7a7a] rounded-lg shadow-lg hover:shadow-black transition-all duration-50 bg-black">
+          <img
+            src="https://plus.unsplash.com/premium_photo-1661505205637-2291c2ebd578?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fGh1bWFuJTIwb24lMjBzbm93fGVufDB8fDB8fHww"
+            alt="object-cover" class="bg-cover pb-10 rounded-md">
+          <h1 class="font-bold text-3xl pr-10"> Group / Centre Activities</h1>
+          <P class=" pt-5 px-5 text-slate-400 text-2xl">Engage in meaningful group and centre-based activities to
+            socialise and learn new skills.</p>
+          <p class="pl-10 pt-12 pb-10">
+            <button class="rounded-md bg-green-300 text-white py-3 px-8 hover:bg-yellow-600">Read More <i
+                class="fa-solid fa-arrow-right-long"></i></button>
+          </p>
+        </div>
+
+        <!-- ===Colum 6=== -->
+        <div class="mt-20 shadow-[#7a7a7a] rounded-lg shadow-lg hover:shadow-black transition-all duration-50 bg-black">
+          <img
+            src="https://plus.unsplash.com/premium_photo-1701201196917-26e6d640b991?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjF8fGh1bWFuJTIwb24lMjBzbm93fGVufDB8fDB8fHww"
+            alt="object-cover" class="bg-cover pb-10 rounded-md">
+          <h1 class="font-bold text-3xl"> Assist in Life Stage & Transition</h1>
+          <P class=" pt-5 px-5 text-slate-400 text-2xl">Support through life's transitions, helping you navigate changes
+            with confidence and care.</p>
+          <p class="pl-10 pt-4 pb-10">
+            <button class="rounded-md bg-green-300 text-white py-3 px-8 hover:bg-yellow-600">Read More <i
+                class="fa-solid fa-arrow-right-long"></i></button>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====Acknowledgement of Country=== -->
+    <div class="text-center md:px-60 mt-20">
+      <h1 class="text-5xl font">Acknowledgement of Country</h1>
+      <p class="text-2xl pt-5 text-slate-400">We would like to acknowledge the traditional custodians of this land and
+        pay our respects to the Elders both past, present and future for they hold the memories, the traditions, the
+        culture and hope of their people.</p>
+      <p class="flex gap-10 justify-center pt-10 ">
+        <img src="https://mango-cares.vercel.app/images/aboriginal.jpg" alt="&" class="w-32 rounded-1x2 rounded-md">
+        <img src="https://mango-cares.vercel.app/images/strait.jpg" alt="&" class="w-32 rounded-1x2 rounded-md">
+      </p>
+    </div>
+
+
+    <!-- ===Ready to take the next step?=== -->
+    <div class="bg-green-600 mt-20 text-white">
+      <h1 class="text-5xl pt-10">Ready to take the next step?</h1>
+      <p class="text-2xl text-green-200 pt-5">Contact our friendly team today to discuss your NDIS plan and <br>
+        discover how Mango Cares can support your journey.</p>
+      <p class="flex justify-center gap-10 pt-10  pb-10">
+        <button class="rounded-md bg-white py-3 px-6 text-green-600 shadow-lg hover:shadow-black">Get in Touch</button>
+        <button class="rounded-md bg-slate-600 px-6 py-3 shadow-lg hover:shadow-black"><i
+            class="fa-solid fa-phone"></i>1300 000 000</button>
+      </p>
+    </div>
+
+    <!-- ===grid-cols=== -->
+    <section class=" bg-black">
+
+      <div class="grid-cols-1 md:grid grid-cols-4 pt-20 px-24 text-left text-white ">
+        <div class="">
+          <img src="https://mango-cares.vercel.app/_next/image?url=%2FMango-Care-Logo.png&w=1920&q=75" alt="#"
+            class=" w-20 ">
+          <p class="pt-5 leading-8 text-slate-400">Providing compassionate, high-quality NDIS support services to
+            empower individuals living with disabilities to lead fulfilling, independent lives. </p>
+        </div>
+
+        <!-- Quick Quick -->
+        <div class="">
+          <p class="text-2xl"> Quick </p>
+          <p class="pt-5 leading-8">
+            <a href="&" class="">Home</a> <br>
+            <a href="&" class="">About Us</a> <br>
+            <a href="&">Our Services</a> <br>
+            <a href="&">Contact Us</a><br>
+            <a href="&">Careers</a>
+          </p>
+        </div>
+
+        <!-- Core Service Core Service -->
+        <div class="">
+          <p class="font-bold text-2xl">Core Service </p>
+          <p class="pt-5 leading-8">Daily Personal Activities Community Participation Assistance with Household Tasks
+            Specialist Disability Accommodation</p>
+        </div>
+
+        <!-- GetGet in Touch -->
+        <div class="px-10 leading-8">
+          <p class="text-2xl font-bold">Get in Touch</p>
+          <div>
+            <p class="pt-4">1300 000 000</p>
+            <p class="text-slate-400">Mon-Fri, 9am-5pm</p>
+          </div>
+          <div>
+            <p>hello@mangocares.com.au</p>
+            <p class="text-slate-400">We reply within 24hrs</p>
+          </div>
+          <div>
+            <p>123 Support Avenue, Sydney NSW</p>
+            <p class="text-slate-400">2000, Australia</p>
+          </div>
+        </div>
+
+      </div>
+      <hr>
+
+      <div class="flex justify-between text-white mt-10 px-20 pb-5">
+        <p>© 2026 Mango Cares. All rights reserved.</p>
+        <div class=" md:flex">
+          <p>Privacy Policy</p>
+          <p>Terms of Service</p>
+
+        </div>
+      </div>
+
+    </section>
+
+
+  </section>
+</body>
+
+</html>
